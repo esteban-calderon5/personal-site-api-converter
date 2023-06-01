@@ -23,7 +23,7 @@ This api is developed with Maven, and has an embedded tomcat server. for that re
 
 # Deploy
 
-Using a docker image is possible to deploy 
+Using a docker image for deploy
 
   ```bash
   FROM openjdk:11-jdk-slim
