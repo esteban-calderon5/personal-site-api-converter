@@ -8,8 +8,8 @@ This repository creates an api with spring boot for interest rates equivalencies
 # How to build
 
 This api is developed with Maven, and has an embedded tomcat server. for that reason is only necesary to build as a jar o war package for running in a docker image or into an apache server
+1. Clone this repository
 
 ```bash
-# Clone this repository
 $ git clone https://github.com/juancalderonde/api-rate-converter
 ```
