@@ -16,6 +16,7 @@ This api is developed with Maven, and has an embedded tomcat server. for that re
   $ git clone https://github.com/juancalderonde/api-rate-converter
   ```
   using IDE
+  
   Depending on the IDE used is possible to clone this repository directly from the interface, in particular both intellij and spring tools suite has this option
   
 2. Using maven make the install of the solution the pom.xml has by default a war package option, but it can be modified
