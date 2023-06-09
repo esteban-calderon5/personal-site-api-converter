@@ -11,7 +11,7 @@ import com.juancalderon.apirate.services.RateServices;
 
 @RestController
 @RequestMapping("rateconverter/api")
-public class rateController {
+public class RateController {
 	
 	@Autowired
 	private RateServices rateServices;

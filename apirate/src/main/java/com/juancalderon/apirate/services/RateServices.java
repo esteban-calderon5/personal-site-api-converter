@@ -23,7 +23,7 @@ public class RateServices {
 		Double currRate = rate.getRate()/100.0;
 		//values needed for convert
 		if (annuityStart.equals(annuityToGo)) {
-			return currRate * 100.0 ;
+			return currRate;
 		}
 		if (annuityStart.contains("EA")) {
 			periodRate = Math.pow(1+currRate , 1/periodsToGo)-1;
@@ -39,11 +39,11 @@ public class RateServices {
 		
 		//According to the request the rate is changed.
 		if (annuityToGo.equals("EA")) {
-			return Math.round(effectiveRate*10000.0)/100.0;
+			return effectiveRate;
 		}else if(annuityToGo.equals("N")) {
-			return Math.round(periodRate * periodsToGo*10000.0)/100.0;
+			return periodRate * periodsToGo;
 		}else {
-			return Math.round(periodRate*10000.0)/100.0;
+			return periodRate;
 			//return periodRate;
 		}
 
